@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class Funcionario {
-
+ 
 
     private String nome;
     private String sobreNome;
