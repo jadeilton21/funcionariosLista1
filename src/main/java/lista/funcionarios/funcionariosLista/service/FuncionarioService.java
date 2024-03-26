@@ -8,6 +8,12 @@ import java.util.List;
 @Service
 public class FuncionarioService {
 
+    private final FuncionarioCliente funcionarioCliente;
+
+
+    public FuncionarioService()
+
+
 
     public List<Funcionario> getFuncionarioFromLibriary() {
     }
