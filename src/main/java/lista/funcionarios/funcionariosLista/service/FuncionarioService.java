@@ -1,6 +1,7 @@
 package lista.funcionarios.funcionariosLista.service;
 
 import lista.funcionarios.funcionariosLista.doMain.Funcionario;
+import lista.funcionarios.funcionariosLista.openCliente.FuncionarioCliente;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
