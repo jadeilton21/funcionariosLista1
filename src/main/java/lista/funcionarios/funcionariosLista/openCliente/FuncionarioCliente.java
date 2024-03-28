@@ -4,7 +4,7 @@ import lista.funcionarios.funcionariosLista.response.FuncionarioResponseList;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient(name = "",url = "")
+@FeignClient(name = "funcionario-api",url = "")
 public interface FuncionarioCliente {
     @GetMapping
     FuncionarioResponseList getFuncionario();
