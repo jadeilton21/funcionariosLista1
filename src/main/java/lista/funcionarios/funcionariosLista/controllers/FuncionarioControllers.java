@@ -18,6 +18,9 @@ public class FuncionarioControllers {
 
     private final FuncionarioService funcionarioService;
 
+    public FuncionarioControllers(FuncionarioService funcionarioService) {
+        this.funcionarioService = funcionarioService;
+    }
 
 
     public ResponseEntity<List<Funcionario>> getFuncionario(){
